@@ -51,6 +51,7 @@ $initQueue({ workers: <int>, interval: <int of milliseconds> });
 </code>
 
 <strong>workers</strong> (Default 5): The number of background processors that the queue will delegate calls to.
+<br/>
 <strong>interval</strong> (Default 5): The queue polling interval. If performance is affected by the default interval of 5ms, then it may be prudent to increase the polling frequency.
 
 Credit and Use Agreement
